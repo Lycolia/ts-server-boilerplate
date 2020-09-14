@@ -1,0 +1,36 @@
+{
+  "name": "ts-server-boilerplate",
+  "version": "0.0.1",
+  "description": "TypeScript server Hot deployment boilerplate",
+  "scripts": {
+    "debug": "npm run build && npm run watch-debug",
+    "build": "npm run build-ts && npm run lint",
+    "serve": "node dist/server.js",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "watch-node": "nodemon dist/server.js",
+    "watch-debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run serve-debug\"",
+    "serve-debug": "nodemon --inspect dist/server.js"
+  },
+  "author": "Lycolia",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "@types/validator": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "concurrently": "^5.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.1.1",
+    "typescript": "^3.8.3"
+  }
+}
