@@ -1,6 +1,7 @@
 ## これは何？
 
-- TypeScript で HotDeploy しながら開発するための Boilerplate
+- TypeScript で Server っぽいのを HotDeploy しながら開発するための Boilerplate
+- たぶん必要最低限の環境とサンプルが入ってる、きっと
 
 ## 動かし方
 
