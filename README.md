@@ -1,6 +1,6 @@
 ## これは何？
 
-- TypeScript で HotDeploy しながら開発するための Boilerplate。
+- TypeScript で HotDeploy しながら開発するための Boilerplate
 
 ## 動かし方
 
@@ -14,7 +14,7 @@
 
 ### `.vscode/launch.json`
 
-- デバッガの起動設定。`nodemon`のインスペクタはデフォでは`9229`で listen しているらしい
+- デバッガの起動設定。`nodemon`のインスペクタはデフォでは`9229`で listen してるっぽい
   - ポート変更は`package.json`の`nodemon --inspect`を`nodemon --inspect=9300`とかにするといける
 
 ```json
