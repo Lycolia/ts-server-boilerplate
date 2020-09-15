@@ -46,15 +46,3 @@
 
 - 書いてあるコマンドを実行してるだけ。書かれている script は`npm run [script name]`で実行される
 - 例えば`npm run serve`であれば`node dist/server.js`をしているのと同義
-
-### `devDependencies`
-
-- TypeScript のビルダー
-- [`concurrently`](https://www.npmjs.com/package/concurrently#usage)
-  - コマンド並列実行
-- `nodemon`
-  - .js ファイルを監視して変更があったら勝手に再起動するやつ
-- `eslint`
-  - linter
-- `@types`
-  - 入れてないと怒られたりするやつ
