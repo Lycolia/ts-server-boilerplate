@@ -1,8 +1,8 @@
 ## TypeScript Server Boilerplate
 
 - Boilerplate for hot deploying and debugging TypeScript server
+- Minimal components
 - Includes sample server
-- Minimal components, junkless
 
 ## How to using
 
