@@ -2,7 +2,7 @@
 
 - Boilerplate for hot deploying and debugging TypeScript server
 - Minimal components
-- Includes sample server
+- Includes sample server and ESLint, Prettier, VSCode configs
 
 ## How to using
 
