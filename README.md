@@ -2,6 +2,7 @@
 
 - Boilerplate for hot deploying and debugging TypeScript server
 - Includes sample server
+- Minimal components, junkless
 
 ## How to using
 
@@ -11,6 +12,3 @@
     - `npm run serve`  
     - `npm run dev`  
         - serve on hot deploying
-
-    
-
