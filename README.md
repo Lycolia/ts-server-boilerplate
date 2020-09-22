@@ -1,6 +1,6 @@
 ## TypeScript Server Boilerplate
 
-- Boilerplate for hot deploying and debugging TypeScript server
+- Boilerplate for hot reloading and debugging TypeScript server
 - Minimal components
 - Includes sample server and ESLint, Prettier, VSCode configs
 
@@ -11,4 +11,4 @@
     - `npm run build`  
     - `npm run serve`  
     - `npm run dev`  
-        - serve on hot deploying
+        - serve on hot reloading
