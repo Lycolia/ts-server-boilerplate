@@ -8,7 +8,7 @@
   },
   "main": "./dist/server.js",
   "scripts": {
-    "dev": "npm run kill-node && npm run build && npm run watch-debug",
+    "dev": "npx kill-inspector 9229 && npm run build && npm run watch-debug",
     "build": "npm run build-ts && npm run lint",
     "serve": "node dist/server.js",
     "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
@@ -16,8 +16,7 @@
     "watch-ts": "tsc -w",
     "watch-node": "nodemon dist/server.js",
     "watch-debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run serve-debug\"",
-    "serve-debug": "nodemon --delay 100ms --exec 'node --inspect=0.0.0.0:9229 dist/server.js'",
-    "kill-node": "./kill-node.sh"
+    "serve-debug": "nodemon --delay 100ms --exec 'npx kill-inspector 9229; node --inspect=0.0.0.0:9229 dist/server.js'"
   },
   "author": "Lycolia",
   "license": "MIT",
@@ -30,6 +29,7 @@
     "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "kill-nodemon-inspector": "0.0.1",
     "nodemon": "^2.0.2",
     "prettier": "^2.1.1",
     "typescript": "^3.8.3"

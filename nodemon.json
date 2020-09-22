@@ -1,7 +1,7 @@
 {
   "event": {
-    "start": "./kill-node.sh && npm run dev",
-    "restart": "./kill-node.sh && npm run dev",
-    "crash": "./kill-node.sh && npm run dev"
+    "start": "npx kill-inspector 9229 && npm run dev",
+    "restart": "npx kill-inspector 9229 && npm run dev",
+    "crash": "npx kill-inspector 9229 && npm run dev"
   }
 }
