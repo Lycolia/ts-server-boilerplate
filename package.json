@@ -1,7 +1,7 @@
 {
   "name": "ts-server-boilerplate",
   "version": "0.0.1",
-  "description": "TypeScript server Hot deployment boilerplate",
+  "description": "TypeScript server Hot reloding boilerplate",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/ts-server-boilerplate"
