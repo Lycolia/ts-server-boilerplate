@@ -1,7 +1,7 @@
 {
   "event": {
-    "start": "lsof -i -n | grep 9229 | kill -9 `awk '{print $2}'` && npm run dev",
-    "restart": "lsof -i -n | grep 9229 | kill -9 `awk '{print $2}'` && npm run dev",
-    "crash": "lsof -i -n | grep 9229 | kill -9 `awk '{print $2}'` && npm run dev"
+    "start": "./kill-node.sh && npm run dev",
+    "restart": "./kill-node.sh && npm run dev",
+    "crash": "./kill-node.sh && npm run dev"
   }
 }

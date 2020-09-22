@@ -8,7 +8,7 @@
   },
   "main": "./dist/server.js",
   "scripts": {
-    "dev": "npm run build && npm run watch-debug",
+    "dev": "npm run kill-node && npm run build && npm run watch-debug",
     "build": "npm run build-ts && npm run lint",
     "serve": "node dist/server.js",
     "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
@@ -16,14 +16,12 @@
     "watch-ts": "tsc -w",
     "watch-node": "nodemon dist/server.js",
     "watch-debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run serve-debug\"",
-    "serve-debug": "nodemon --delay 80ms --exec 'kill-port -k 9229/tcp; node --inspect=0.0.0.0:9229 dist/server.js'"
+    "serve-debug": "nodemon --delay 100ms --exec 'node --inspect=0.0.0.0:9229 dist/server.js'",
+    "kill-node": "./kill-node.sh"
   },
   "author": "Lycolia",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "rxjs": "^6.5.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.9.0",
     "@types/validator": "^13.1.0",
@@ -33,7 +31,6 @@
     "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "kill-port": "^1.6.1",
     "nodemon": "^2.0.2",
     "prettier": "^2.1.1",
     "typescript": "^3.8.3"
