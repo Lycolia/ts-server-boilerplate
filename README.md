@@ -3,7 +3,6 @@
 - Boilerplate for hot reloading and debugging TypeScript server
 - Minimal components
 - Includes sample server and ESLint, Prettier, VSCode configs
-- Only available on Linux, Disavailable on Windows
 
 ## How to using
 
