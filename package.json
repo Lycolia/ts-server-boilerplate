@@ -23,15 +23,9 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.9.0",
-    "@typescript-eslint/eslint-plugin": "^4.1.0",
-    "@typescript-eslint/parser": "^4.1.0",
     "concurrently": "^5.1.0",
-    "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
     "kill-nodemon-inspector": "0.0.4",
     "nodemon": "^2.0.2",
-    "prettier": "^2.1.1",
     "typescript": "^3.8.3"
   }
 }
