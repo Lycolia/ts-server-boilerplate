@@ -19,3 +19,13 @@
   - It's a tired to copy this project every time, But it's easy with generator!
   - CLI-generator be installed with following command
     - `npm i -g @lycolia/ts-boilerplate-generator-cli`
+
+## History
+
+- 0.0.2
+
+  - Fix linter does not work issue
+
+- 0.0.1
+
+  - Created
