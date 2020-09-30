@@ -8,7 +8,8 @@
 
 - Linux
   - Windows does not support, though works WSL
-  
+- Node.js 12+
+
 ## How to using
 
 - Lunch commands
