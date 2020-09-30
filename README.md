@@ -4,6 +4,11 @@
 - Minimal components
 - Includes sample server and ESLint, Prettier, VSCode configs
 
+## Required
+
+- Linux
+  - Windows does not support, though works WSL
+  
 ## How to using
 
 - Lunch commands
