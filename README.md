@@ -6,8 +6,6 @@
 
 ## Required
 
-- Linux
-  - Windows does not support, though works WSL
 - Node.js 12+
 
 ## How to using
@@ -27,6 +25,10 @@
     - `npm i -g @lycolia/ts-boilerplate-generator-cli`
 
 ## History
+
+- 0.0.3-1
+
+  - Supported windows
 
 - 0.0.3
 
