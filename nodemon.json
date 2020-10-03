@@ -1,7 +1,0 @@
-{
-  "event": {
-    "start": "npx kill-nodemon-inspector 9229 && npm run dev",
-    "restart": "npx kill-nodemon-inspector 9229 && npm run dev",
-    "crash": "npx kill-nodemon-inspector 9229 && npm run dev"
-  }
-}

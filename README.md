@@ -28,6 +28,10 @@
 
 ## History
 
+- 0.0.3
+
+  - Replaced nodemon to watch-ts
+
 - 0.0.2
 
   - Fix linter does not work issue
