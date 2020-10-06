@@ -16,6 +16,8 @@
   - `npm run serve`
   - `npm run dev`
     - serve on hot reloading
+  - `npm run devf`
+    - serve on hot reloading force break
 
 ## CLI-generator
 
@@ -25,6 +27,10 @@
     - `npm i -g @lycolia/ts-boilerplate-generator-cli`
 
 ## History
+
+- 0.0.4
+
+  - add force break mode
 
 - 0.0.3-1
 
