@@ -13,5 +13,5 @@
     "**/coverage": true
   },
   "typescript.referencesCodeLens.enabled": true,
-  "typescript.validate.enable": false
+  "typescript.validate.enable": true
 }
