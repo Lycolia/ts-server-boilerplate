@@ -28,6 +28,10 @@
 
 ## History
 
+- 0.0.4-1
+
+  - update eslint rules
+  
 - 0.0.4
 
   - add force break mode
