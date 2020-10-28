@@ -28,6 +28,10 @@
 
 ## History
 
+- 0.0.4-2
+
+  - add comments default config set  for tsconfig.json
+
 - 0.0.4-1
 
   - update eslint rules
