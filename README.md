@@ -30,7 +30,7 @@
 
 - 0.0.4-3
 
-  - fix issue from absolute import
+  - fix issue from import path
 
 - 0.0.4-2
 
