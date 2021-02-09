@@ -4,6 +4,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "eslint.alwaysShowStatus": true,
   "eslint.validate": ["javascript", "typescript"],
   "editor.formatOnSave": true,
   "search.exclude": {
@@ -12,7 +13,9 @@
     "**/dist": true,
     "**/coverage": true
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.referencesCodeLens.enabled": true,
   "typescript.validate.enable": true,
-  "typescript.preferences.importModuleSpecifier": "relative"
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
