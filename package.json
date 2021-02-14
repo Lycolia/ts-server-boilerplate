@@ -2,6 +2,8 @@
   "name": "ts-server-boilerplate",
   "version": "0.1.0",
   "description": "TypeScript server Hot reloding boilerplate",
+  "author": "Lycolia",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/ts-server-boilerplate"
@@ -17,8 +19,8 @@
     "watch-ts-f": "tsc-watch --onSuccess \"node --inspect-brk dist/server.js\"",
     "test": "npx jest"
   },
-  "author": "Lycolia",
-  "license": "MIT",
+  "dependencies": {
+  },
   "devDependencies": {
     "@lycolia/kill-node-inspector": "0.0.5-2",
     "@types/jest": "^26.0.20",
