@@ -12,6 +12,7 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "func-style": ["error", "expression", { "allowArrowFunctions": true }],
     // enforce the consistent use of either backticks, double, or single quotes
     "quotes": ["error", "single"],
     // Disallow await inside of loops, should use Promise.all()
