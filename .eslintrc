@@ -15,6 +15,8 @@
     "quotes": ["warn", "single"],
     // Enforce the consistent use of either function declarations or expressions
     "func-style": ["warn", "expression", { "allowArrowFunctions": true }],
+    // Enforces return statements in callbacks of array's methods
+    "array-callback-return": ["warn", { "checkForEach": true }],
     // Disallow await inside of loops, should use Promise.all()
     "no-await-in-loop": "warn",
     // Allow non-explicit return types on functions and class methods
