@@ -1,6 +1,6 @@
 {
   "name": "ts-server-boilerplate",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "TypeScript server Hot reloding boilerplate",
   "author": "Lycolia",
   "license": "MIT",
@@ -28,6 +28,7 @@
     "concurrently": "^5.1.0",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.1",

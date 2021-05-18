@@ -3,6 +3,8 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:jest/style",
+    "plugin:jest/recommended",
     "prettier"
   ],
   "plugins": ["@typescript-eslint"],
