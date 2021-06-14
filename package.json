@@ -1,6 +1,6 @@
 {
   "name": "ts-server-boilerplate",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "TypeScript server Hot reloding boilerplate",
   "author": "Lycolia",
   "license": "MIT",
