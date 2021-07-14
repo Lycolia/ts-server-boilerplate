@@ -21,3 +21,5 @@
       - this only development, not production
   - `npm run test`
     - run jest
+  - `npm run coverage`
+    - get coverage report
