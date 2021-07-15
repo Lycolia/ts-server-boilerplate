@@ -20,6 +20,6 @@
     - run tsc
       - this only development, not production
   - `npm run test`
-    - run jest
+    - Launches the test runner by watch mode
   - `npm run coverage`
     - get coverage report
