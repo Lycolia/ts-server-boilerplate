@@ -6,7 +6,7 @@ module.exports = {
   roots: ['<rootDir>/src/'],
   testEnvironment: 'node',
   moduleFileExtensions: ['ts', 'js'],
-  collectCoverageFrom: ['**/*.{ts,js}', '!**/node_modules/**', '!**/dist/**'],
+  collectCoverageFrom: ['src/**/*.{ts,js}'],
   testPathIgnorePatterns: ['<rootDir>[/\\\\](node_modules|dist)[/\\\\]'],
   watchPlugins: [
     'jest-watch-typeahead/filename',
