@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "es2020",
     "module": "es2020",
-    "allowJs": true,
-    "checkJs": true,
+    "allowJs": false,
+    "checkJs": false,
     "jsx": "preserve",
     "sourceMap": true,
     "outDir": "./dist",
