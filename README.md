@@ -4,7 +4,7 @@
 
 ## Required
 
-- Node.js 14+
+- Node.js 16+
 
 ## How to using
 
