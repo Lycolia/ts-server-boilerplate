@@ -9,17 +9,15 @@
 ## How to using
 
 - Lunch commands
-
   - `npm start`
-    - run debug server on hot reloading
+    - run debug server ~~on hot reloading~~
   - `npm run dev`
-    - run force debug server on hot reloading
+    - run force debug server ~~on hot reloading~~
   - `npm run lint`
     - run lint
   - `npm run build`
-    - run tsc
-      - this only development, not production
+    - run swc
   - `npm run test`
-    - Launches the test runner by watch mode
+    - launches test runner by watch mode
   - `npm run coverage`
     - get coverage report
