@@ -12,7 +12,7 @@
   "scripts": {
     "start": "npm run build-ts && node --inspect dist/server.js",
     "dev": "npm run build-ts && node --inspect-brk dist/server.js",
-    "build": "npm run build-ts && npm run type-check",
+    "build": "npm run type-check && npm run build-ts",
     "type-check": "tsc --noEmit && eslint .",
     "build-ts": "rm -Rf dist/ && swc src/ --config-file .swcrc_build -d dist/",
     "test": "jest --watch",
