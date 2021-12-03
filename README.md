@@ -4,7 +4,7 @@
 
 ## Required
 
-- Node.js 16+
+- Node.js 14+
 
 ## How to using
 
@@ -13,8 +13,8 @@
     - run debug server ~~on hot reloading~~
   - `npm run dev`
     - run force debug server ~~on hot reloading~~
-  - `npm run lint`
-    - run lint
+  - `npm run type-check`
+    - run type-check
   - `npm run build`
     - run swc
   - `npm run test`
